@@ -1,0 +1,125 @@
+.investMain{
+    background-color: #003949;
+    padding: 30px;
+}
+
+.heading h3{
+    color: #FFFFFF;
+    font-family: "Proxima Nova", Sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.45em;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .investMain h5{
+    color: white;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .investMain p {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 20px 40px 0 40px;
+}
+
+ .investMain a{
+    color: white;
+    /* text-decoration: none; */
+}
+
+@media screen and (max-width: 1000px) {
+    .investMain p{
+        padding: 0;
+    }
+}
+
+.investMainTwo{
+    background: #F1F1F1;
+    padding: 90px 0;
+}
+
+.investMainTwo p{
+    font-size: 20px;
+}
+
+.arrow{
+    color: #2AAD92;
+    font-size: 20px;
+}
+
+.txtend{
+    text-align: end;
+}
+
+.investMainTwoRow{
+    padding: 10px 0;
+}
+
+.investMainTwoContainer{
+    padding: 50px 0;
+}
+
+.heading_investTwo{
+    text-align: center;
+    /* padding-bottom: 30px; */
+}
+
+@media screen and (max-width: 600px) {
+
+    .investMainTwoRow{
+        display: flex;
+    }
+    .txtend{
+        text-align: start;
+    }
+}
+
+.investBtn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.investBtn button{
+    font-family: "Proxima Nova", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #2AAD92;
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px 40px 20px 40px;
+    border: none;
+}
